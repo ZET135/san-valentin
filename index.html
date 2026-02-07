@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación a San Valentín encoded</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("fondo.jpg"); /* Cambia si tu imagen tiene otro nombre */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 400px;
+            margin: auto;
+            padding-top: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        button {
+            width: 45%;
+            padding: 12px;
+            font-size: 18px;
+            margin: 5px;
+            border-radius: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #siBtn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #noBtn {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="gifContainer">
+            <img id="gifContainerImg" src="mocha.gif" alt="Ositos Iniciales">
+        </div>
+
+        <div id="happyGifContainer" style="display: none;">
+            <img src="mocha5final.gif" alt="Ositos Felices">
+        </div>
+
+        <div id="happyGifContainer2" style="display: none;">
+            <img src="mocha6final.gif" alt="Ositos Felices">
+        </div>
+
+        <div id="happyGifContainer3" style="display: none;">
+            <img src="mocha7final.gif" alt="Ositos Felices">
+        </div>
+
+        <div id="happyGifContainer4" style="display: none;">
+            <img src="mocha9final.gif" alt="Ositos Felices">
+        </div>
+
+        <div id="sadGifContainer" style="display: none;">
+            <img src="mocha2.gif" alt="Osito Triste">
+        </div>
+
+        <div id="sadGifContainer1" style="display: none;">
+            <img src="mocha3.gif" alt="Osito Triste">
+        </div>
+
+        <div id="sadGifContainer2" style="display: none;">
+            <img src="mocha4.gif" alt="Osito Triste">
+        </div>
+
+        <h1 id="question">¿Quieres ser mi San Valentín?</h1>
+
+        <div id="messageContainer" style="display: none;"></div>
+
+        <button id="siBtn">Sí</button>
+        <button id="noBtn">No</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
